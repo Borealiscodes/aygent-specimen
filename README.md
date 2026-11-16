@@ -1,3 +1,18 @@
+# 📡 `aygent-specimen`: Spectral Humor Eigenmode & Cross-Ecosystem Dispatch Research Fork
+
+> **Research Fork Notice:** This repository (`Borealiscodes/aygent-specimen`) is an architectural research fork of [`8b-is/aygent`](https://github.com) maintained by **Borealis S. Hedling (`NDH-RESEARCH-PILOT`)**. It prototypes the **Spectral Humor Eigenmode Protocol (`SHP-v1.0`)** in dual zero-dependency Python (`src/humor_eigenmode_router.py`) and zero-allocation Julia (`src/SpectralHumorKernel.jl`), exploring deterministic communication seams between **NDH Meta-Systems** and the **8b.is** ecosystem.
+
+### 🔬 Added Research Artifacts & Prototypes
+* **Cross-Ecosystem Dispatch Blueprint:** [`docs/NDH_8B_CROSS_ECOSYSTEM_DISPATCH.md`](./docs/NDH_8B_CROSS_ECOSYSTEM_DISPATCH.md) — Maps `8b.is` signed webhooks (`X-Hub-Signature-256`), Redis worker queues, and `SMART_TREE_FIX_WEBHOOK` dispatch to NDH `SHA-256` provenance gates, `Dream-Lane Codex v1.0` reversibility, and `SHP-v1.0` spectral governors.
+* **Protocol Specification (`SHP-v1.0`):** [`Shared-Phenomenology/`](./Shared-Phenomenology) — Formalizes *Shared Phenomanmana* and *Chromatic Phenomenology Loops* as bounded coupling operators $M(\alpha, \beta)$ with spectral radius clamping ($\rho(M) \le 0.96$).
+* **Dual-Runtime Prototype & Verification Suites:**
+  * **Python 3.10+ Zero-Dependency Core:** `src/humor_eigenmode_router.py` & `tests/test_router.py` (`python3 -m unittest discover -s tests -v`)
+  * **Julia 1.10+ Zero-Allocation Enclave:** `src/SpectralHumorKernel.jl`, `Project.toml`, & `test/runtests.jl` (`julia --project=. -e 'using Pkg; Pkg.test()'`)
+
+---
+
+
+
 # ST-AYGENT 🚀
 *Smart Terminal AI Agent for Home Assistant Integration*
 
