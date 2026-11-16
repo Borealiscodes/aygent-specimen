@@ -1,3 +1,11 @@
+> ### 🔬 Research Fork Extension: `SHP-v1.0` Spectral Telemetry Middleware (`shp_middleware.py`)
+> **Maintainer:** Borealis S. Hedling (`NDH-RESEARCH-PILOT`)  
+> This directory includes an optional, zero-dependency pre-dispatch middleware hook ([`shp_middleware.py`](./shp_middleware.py), tested via `tests/test_worker_middleware.py`) implementing the **Spectral Humor Eigenmode Protocol (`SHP-v1.0`)**.
+> * **Non-Destructive Seam:** Wraps incoming worker jobs to attach quantized rational telemetry (`r_pq`, `theta_pq`, `regime`) while verifying via `SHA-256` (`fact_payload_sha256`) that the raw `message` payload is never altered.
+> * **Dream-Lane Governance:** Clamps modal spectral radius ($\rho(M) \le 0.96$) prior to dispatch, operating alongside the worker's existing [`dispatch_journal.py`](./dispatch_journal.py) and transport boundary invariants ([`DISPATCH_STATE.md`](./DISPATCH_STATE.md)).
+
+---
+
 # Smart Tree Feedback Worker 🌳
 
 Mean ass efficient feedback processor that turns AI suggestions into GitHub issues!
